@@ -29,7 +29,8 @@ Final Project for DS5100
  `die.roll_die(rolls)`
  4. Show die  <br />
  `die.show()` <br />
- Returns dataframe of die faces and weights
+    <img width="220" alt="Screen Shot 2022-07-15 at 10 27 26 AM" src="https://user-images.githubusercontent.com/107501768/179244556-dcf2f0af-a540-40a0-aeda-710cc02d8f3c.png">
+
  
  ### Playing a game
  1. Intializing game object <br />
@@ -38,7 +39,7 @@ Final Project for DS5100
  `game.play(rolls)`
  3. Show play <br />
  `game.show_play()`<br />
- Returns dataframe of face rolled for each die for each roll
+    <img width="239" alt="Screen Shot 2022-07-15 at 10 28 19 AM" src="https://user-images.githubusercontent.com/107501768/179244606-cc16da8e-99a5-48fd-8c0d-7f4172af6ecc.png">
  
  ### Analzying a game
  1. Intializing analyzer object <br />
@@ -48,13 +49,14 @@ Final Project for DS5100
  Returns jackpot_count
  3. Dataframe of jackpots <br />
  `analyze.jackpot_results` <br />
- Returns dataframe of jackpots for a game
+    <img width="226" alt="Screen Shot 2022-07-15 at 10 32 59 AM" src="https://user-images.githubusercontent.com/107501768/179245094-7534b1ed-a9fd-4e45-8589-bef813460a1f.png"> <br />
  4. Count of different combinations <br />
  `analyze.combo()` <br />
- Returns dataframe of counts for each different combinations
+    <img width="216" alt="Screen Shot 2022-07-15 at 10 31 36 AM" src="https://user-images.githubusercontent.com/107501768/179244842-bf3ae89e-5c0c-4ff9-bbb4-f5c1f661117a.png"> <br />
  5. Face counts per roll <br />
  `analyze.face_counts_per_roll()` <br />
- Returns dataframe of count for each face rolled for every roll
+    <img width="282" alt="Screen Shot 2022-07-15 at 10 28 53 AM" src="https://user-images.githubusercontent.com/107501768/179244758-52b23a25-1f12-4ed3-92af-7ba43da2aebe.png"> <br />
+
  
  ## API Description
  ### Die Class
