@@ -71,7 +71,7 @@ Final Project for DS5100
         __init__(list) : initalize with list of faces
         change_weights(int, int or float) : change weight of face
         roll_die(int) : roll die specified amount of time, returns list of faces rolled, default: roll = 1
-        show_die() : returns dataframe of die faces and weights in wide form, default: wide = True
+        show_die() : returns dataframe of die faces and weights 
  ```
  ### Game Class
  ```
@@ -84,7 +84,7 @@ Final Project for DS5100
     _______
         __init___(list) : initalize with list of die
         play(int) : specify number of rolls to be played
-        show_play() : returns dataframe of faces rolled per die number per roll 
+        show_play() : returns dataframe of faces rolled per die number per roll in wide form, default: wide = True
  ```
  ### Analzyer Class
  ```
